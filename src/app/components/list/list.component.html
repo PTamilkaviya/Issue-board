@@ -1,0 +1,10 @@
+<h1>Test Cases</h1>
+<ul>
+<li ng-repeat="testcase in testcases">
+<h2>{{testcase.title}}</h2>
+<p>{{testcase.script}}</p>
+<p>Test status: {{testcase.testStatus}}</p>
+<a href="#/testcases/edit/{{testcase._id}}">Edit</a>
+</li>
+</ul>
+
